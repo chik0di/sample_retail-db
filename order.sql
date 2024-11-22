@@ -1,8 +1,8 @@
 ﻿CREATE TABLE [dbo].[order]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[order_id] NCHAR(10) NOT NULL PRIMARY KEY, 
     [customer_id] INT NOT NULL, 
     [order_date] DATE NOT NULL, 
-    [quantity] INT NOT NULL DEFAULT 1, 
-    [product_id] INT NOT NULL
+    [total_amount] DECIMAL(5, 2) NOT NULL , 
+    [employee_id] INT NOT NULL
 )
