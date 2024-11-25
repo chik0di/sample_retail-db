@@ -62,6 +62,8 @@
     <Build Include="customer.sql" />
     <Build Include="employee.sql" />
     <Build Include="order.sql" />
+    <Build Include="order_detail.sql" />
+    <Build Include="inventory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="retail.refactorlog" />
